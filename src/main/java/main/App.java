@@ -7,7 +7,6 @@ import java.util.Scanner;
  * Atilla Eminli
  * Viikkotehtävä 2.
  * Tämä on valikkopohjainen ohjelma joka saa syötteitä käyttäjältä.
- * OHJELMA PYRKII TÄYTTÄMÄÄN 5 PISTEEN VAATIMUKSET
  */
 public class App 
 {
@@ -18,7 +17,7 @@ public class App
     
         boolean exit = false;
         while (!exit) {
-            System.err.println("1) Pistä siili puhumaan, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
+            System.out.println("1) Pistä siili puhumaan, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
             
             if(sc.hasNext()) {
                 int i = 0;
